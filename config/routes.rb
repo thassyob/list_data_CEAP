@@ -9,8 +9,8 @@ Rails.application.routes.draw do
           sessions: 'api/v1/auth/sessions'
       }
 
-        resources :users, only: :update do
-      end
+      resources :users, only: :update
+      resources :reports, only: :create
     end
   end
 end
