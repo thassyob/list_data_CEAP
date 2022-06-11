@@ -17,8 +17,8 @@ FactoryBot.define do
     number { 1 }
     document_type { 1 }
     issuance_string { "MyString" }
-    document_value { 1.5 }
-    glosa_value { 1 }
+    document_value { 1000 }
+    glosa_value { 1000 }
     net_value { 1.5 }
     month_number { 1 }
     year_number { 1 }
