@@ -10,7 +10,7 @@ Rails.application.routes.draw do
       }
 
       resources :users, only: :update
-      resources :reports, only: :create
+      resources :reports, only: [:index, :create]
     end
   end
 end

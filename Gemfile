@@ -39,6 +39,7 @@ gem 'devise_token_auth', '~> 0.1.36'
 gem 'pry', '~> 0.13.1'
 gem 'active_model_serializers', '~> 0.10.0'
 gem "roo", "~> 2.8.0"
+gem 'money-rails', '~> 1.7'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
