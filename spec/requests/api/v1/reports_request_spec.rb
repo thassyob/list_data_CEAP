@@ -13,6 +13,7 @@ RSpec.describe "Api::V1::Reports", type: :request do
       expect(response).to have_http_status(:ok)
 
       expect(json_body[0]).to have_key(:id)
+      expect(json_body[0]).to have_key(:parliamentary_name)
       expect(json_body[0]).to have_key(:total_spent)
       expect(json_body[0]).to have_key(:expenses)
       expect(json_body[0]).to have_key(:higher_expense)

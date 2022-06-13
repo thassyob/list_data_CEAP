@@ -1,5 +1,5 @@
 class Api::V1::Reports::Index::ReportSerializer < ActiveModel::Serializer
-  attributes :id, :total_spent, :higher_expense, :expenses
+  attributes :id, :parliamentary_name, :total_spent, :higher_expense, :expenses
 
   def expenses
     {
