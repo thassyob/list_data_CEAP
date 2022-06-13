@@ -19,4 +19,4 @@ Logout: DELETE: "/api/v1/auth/sign_out"
 
 Create report csv: POST: "/api/v1/reports" request body: { "file": upload_file } }
 
-List report: GET "/api/v1/reports"
+List reports: GET "/api/v1/reports"
