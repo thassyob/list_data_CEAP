@@ -2,10 +2,12 @@ Getting Started
 To get the application running locally:
 
 bundle install
+
 rails db:migrate
+
 rails s
 
-Running tests
+Running tests:
 
 rspec /spec
 
